@@ -4,12 +4,19 @@
     object-fit: cover;
     margin-top: -5.5rem;
 
+    &__button-container {
+        margin-left: 8rem;
+    }
+
     &__button {
-        width: 4rem;
-        height: 2rem;
+        width: 8rem;
+        height: 1rem;
+        font-size: small;
         border-radius: 1.5rem;
+        border: none;
         background-color: green;
         color: white;
-        font-weight: 600;
+        font-weight: 400;
+        position: relative;
     }
 }

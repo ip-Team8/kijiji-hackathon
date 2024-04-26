@@ -5,7 +5,9 @@ const Notifications = () => {
    
     return (
         <>
-        <img classname="notifications" src={notifications} alt="notifications"></img>
+        <div>
+        <img className="notifications" src={notifications} alt="notifications"></img>
+        </div>
         </>
     )
 } 
