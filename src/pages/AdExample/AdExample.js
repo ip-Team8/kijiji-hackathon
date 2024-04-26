@@ -7,7 +7,7 @@ const AdExample = () => {
     return (
         <div> 
         <Link to="/seller-profile">
-        <img className="ad-post" src={adExample} ></img>
+        <img className="ad-post" src={adExample} alt=" " ></img>
         </Link>       
         </div>
     )
