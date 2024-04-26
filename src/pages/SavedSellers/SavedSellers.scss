@@ -1,0 +1,43 @@
+.saved-sellers {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: -10rem;
+
+    &__list-number {
+        color: #3e4153;
+        font-family: sans-serif;
+        font-size: medium;
+        font-weight: 400;
+        padding-left: 6rem;
+    }
+
+    &__list {
+        display: flex;
+        flex: row;
+        align-items: center;
+        border: 1px solid #8080802e;
+        margin-left: 6rem;
+        margin-right: 4rem;
+        margin-bottom: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        text-align: left;
+        background-color: whitesmoke;
+    }
+
+    &__label {
+        color: grey;
+        font-weight: 300;
+        font-size: small;
+        font-family: sans-serif;
+        padding-bottom: 0.5rem;
+        padding-left: 3rem;
+    }
+
+    &__list-item{
+        padding-top: 0.5rem;
+        text-decoration: none;
+        color: black;
+    }
+}
