@@ -7,7 +7,9 @@ const SavedSellers = () => {
     return (
         <>
         <div>
+        <Link to="/faveads">
         <img className="saved-sellers" src={savedSellers}></img>
+        </Link>
         <h2 className='saved-sellers__list-number'>Showing 1 - 1 of 1 results</h2>
         <div className='saved-sellers__list'>
             <label className='saved-sellers__label'>Name
