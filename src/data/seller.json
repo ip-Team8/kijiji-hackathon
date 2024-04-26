@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "image": "https://avatarfiles.alphacoders.com/181/181475.jpg",
+    "name": "Sariah Smith",
+    "follow": true,
+    "followers": 20,
+    "average_reply": "<6 hrs",
+    "on_kijiji": "2 yrs",
+    "reply_rate": "75%"
+  },
+  {
+    "id": 2,
+    "image": "https://avatarfiles.alphacoders.com/374/374587.png",
+    "name": "Felicia Anderson",
+    "follow": true,
+    "followers": 25,
+    "average_reply": "<8 hrs",
+    "on_kijiji": "5 yrs",
+    "reply_rate": "85%"
+  },
+  {
+    "id": 3,
+    "image": "https://avatarfiles.alphacoders.com/347/347536.jpg",
+    "name": "Jen Carpenter",
+    "follow": false,
+    "followers": 15,
+    "average_reply": "<10 hrs",
+    "on_kijiji": "3 yrs",
+    "reply_rate": "70%"
+  },
+  {
+    "id": 4,
+    "image": "https://pm1.aminoapps.com/6761/d63cf8f1a27519a70c9e5b86c45a5b2bb1fe8f85v2_hq.jpg",
+    "name": "Steven MacDonald",
+    "follow": true,
+    "followers": 28,
+    "average_reply": "<12 hrs",
+    "on_kijiji": "4 yrs",
+    "reply_rate": "85%"
+  }
+]
