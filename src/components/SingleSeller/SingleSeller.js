@@ -1,6 +1,23 @@
+import { useNavigate } from "react-router-dom";
+import sellerProf1 from '../../assets/images/seller-profile1.jpg'
+
 const SingleSeller = () => {
+
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        alert("Seller saved!")
+        navigate("/saved-sellers")
+    }
+
     return (
         <>
+        <div>
+        <img className="seller-prof" src={sellerProf1}></img>
+        <button className="seller-prof__button" onClick={handleClick}>+ FOLLOW</button>
+        </div>
+        </>
+        /* <>
         <div className="Seller__Container">
             <div>
 
@@ -26,7 +43,9 @@ const SingleSeller = () => {
                 </div>
             </div>
         </div>
-        </>
+        </> */
+
     )
 } 
+
 export default SingleSeller;
