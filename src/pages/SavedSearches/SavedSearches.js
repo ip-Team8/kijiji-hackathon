@@ -1,8 +1,11 @@
+import './SavedSearches.scss';
+import savedSearches from '../../assets/images/saved-searches.jpg';
+
 const SavedSearches = () => {
     return (
         <>
         <div>
-            <h1>Saved Searches</h1>
+            <img className="saved-searches" src={savedSearches}></img>
         </div>
         </>
     )
