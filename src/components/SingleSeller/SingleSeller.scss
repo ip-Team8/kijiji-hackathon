@@ -1,4 +1,4 @@
-
+@use '../../styles/partials/variables' as *;
 .body {
     position: relative;
 }
@@ -25,9 +25,11 @@
         position: absolute;
         top: 11.25rem;
         left: 15rem;
-        &:focus {
+
+        &:active,
+        &:focus,
+        &:visited {
             background-color: gray;
-            content: 'unfollow';
             width: 8rem;
             height: 1rem;
             font-size: small;
@@ -35,9 +37,20 @@
             border: none;
             color: white;
             font-weight: 400;
-            position: absolute;
-            top: 11.25rem;
-            left: 15rem;
         }
+    }
+
+    &__button-ss {
+        width: 8rem;
+        height: 1rem;
+        font-size: small;
+        border-radius: 1.5rem;
+        border: none;
+        background-color: $purple;
+        color: white;
+        font-weight: 400;
+        position: absolute;
+        top: 20rem;
+        left: 15rem;
     }
 }

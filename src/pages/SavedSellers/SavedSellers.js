@@ -24,7 +24,7 @@ const SavedSellers = () => {
         <div className='saved-sellers__list'>
             <label className='saved-sellers__label'>Name
             <Link to="/seller-profile">
-            <p className='saved-selleres__list-item'>Kijiji User</p>
+            <p className='saved-selleres__list-item'>Sariah</p>
             </Link>
             </label>
             <label className='saved-sellers__label'>Recent listing
@@ -34,7 +34,7 @@ const SavedSellers = () => {
         <div className='saved-sellers__list'>
             <label className='saved-sellers__label'>Name
             <Link to="/seller-profile">
-            <p className='saved-selleres__list-item'>Kijiji User</p>
+            <p className='saved-selleres__list-item'>Felicia</p>
             </Link>
             </label>
             <label className='saved-sellers__label'>Recent listing
