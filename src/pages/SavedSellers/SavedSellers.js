@@ -21,6 +21,26 @@ const SavedSellers = () => {
             <p className='saved-selleres__list-item'>1 day ago</p>
             </label>
         </div>
+        <div className='saved-sellers__list'>
+            <label className='saved-sellers__label'>Name
+            <Link to="/seller-profile">
+            <p className='saved-selleres__list-item'>Kijiji User</p>
+            </Link>
+            </label>
+            <label className='saved-sellers__label'>Recent listing
+            <p className='saved-selleres__list-item'>1 day ago</p>
+            </label>
+        </div>
+        <div className='saved-sellers__list'>
+            <label className='saved-sellers__label'>Name
+            <Link to="/seller-profile">
+            <p className='saved-selleres__list-item'>Kijiji User</p>
+            </Link>
+            </label>
+            <label className='saved-sellers__label'>Recent listing
+            <p className='saved-selleres__list-item'>1 day ago</p>
+            </label>
+        </div>
         </div>
         </>
     )
